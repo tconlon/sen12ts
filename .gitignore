@@ -1,6 +1,8 @@
 # Personal adds
-data/*
-models/*
+data/shapefiles/*
+data/tfrecords/*
+models/class_models/*
+models/sar2vi_models/*
 .idea/*
 
 # Byte-compiled / optimized / DLL files
