@@ -1,0 +1,31 @@
+BUFFER_SIZE: 500
+BATCH_SIZE: 4
+IMG_WIDTH: 256
+IMG_HEIGHT: 256
+INPUT_CHANNELS: 4
+OUTPUT_CHANNELS: 1
+TIMESTEPS_PER_SAMPLE: 4
+CDL_IN_OUTPUT: True
+DEM_LAYERS_IN_INPUT: 2
+EPOCHS: 40
+
+TRAIN_PATH: '../../data/tfrecords/ca_central_valley_cropland/sar2vi_train_s1_s2-evi-rgb_nimgs_3004_s2date.tfrecords'
+TEST_PATH:  '../../data/tfrecords/ca_central_valley_cropland/sar2vi_test_s1_s2-evi-rgb_nimgs_752_s2date.tfrecords'
+
+LOG_DIR: "../../models/sar2vi_models/logs/"
+CHECKPOINT_DIR: "../../models/sar2vi_models/training_checkpoints"
+CHECKPOINT_FOLDER: "sar2vi_final"
+IMAGE_DIR: '../../models/sar2vi_models/figures/'
+NORMALIZATION_DIR: '../../models/sar2vi_models/band_normalization_calculations'
+TIMESERIES_PRED_REGION: 'ca_central_valley_cropland'
+
+RANDOM_SEED: 7
+CALCULATE_NORMALIZATION: False
+IMGS_FOR_NORMALIZATION: 1200 
+
+CROPPED_PIXEL_LOSS: True
+LOAD_EXISTING: True
+
+# Model run configurations
+TRAIN: True
+CALCULATE_LC_STATS: False

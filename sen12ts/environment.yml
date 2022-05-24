@@ -1,0 +1,17 @@
+name: sen12ts
+channels:
+  - anaconda
+dependencies:
+  - python=3.7   # or 2.7
+  - pip:
+    - ipython
+    - descarteslabs
+    - geopandas
+    - scikit-learn
+    - tqdm
+    - rasterio
+    - openpyxl
+    - tensorflow==2.8
+    - scipy
+    - tensorflow-probability==0.16
+    - pyyaml
