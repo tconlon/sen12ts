@@ -25,9 +25,9 @@ sen12ts
 │   ├── sar2vi_models/
 ├── sen12ts/
 │   ├── __init__.py
-│   ├── README.md
 │   ├── class_learning/
 │   │   ├── __init__.py
+|   │   ├── README.md
 │   │   ├── band_normalization.py
 │   │   ├── classification_functions.py
 │   │   ├── convert_to_tfrecord.py
@@ -40,11 +40,13 @@ sen12ts
 │   │   ├── plotting.py
 │   ├── data_collection/
 │   │   ├── __init__.py
+|   │   ├── README.md
 │   │   ├── deploy_download_script.py
 │   │   ├── download_paired_data.py
 │   │   ├── utils.py
 │   ├── sar2vi_learning/
 │   │   ├── __init__.py
+|   │   ├── README.md
 │   │   ├── band_normalization.py
 │   │   ├── convert_to_tfrecord.py
 │   │   ├── datagenerator.py
