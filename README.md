@@ -19,6 +19,7 @@ sen12ts
 ├── setup.py
 ├── data/
 │   ├── README.md
+│   ├── sen12ts_lulc_class_value_relationships.xlsx
 │   ├── shapefiles/
 │   ├── tfrecords/
 ├── models/
