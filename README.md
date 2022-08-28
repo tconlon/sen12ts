@@ -74,7 +74,7 @@ For the two applications of the SEN12TS dataset demonstrated in this repository,
 `sen12ts/`: Contains the code used to create the SEN12TS dataset (`data_collection/`), translate radar imagery into predicted vegetation indices (`sar2vi_learning/`), and create a cropland classifier (`class_learning/`). 
 
 ## Raster value - Land use/land cover class relationships
-A datasheet describing the relationships between raster values and classes for the various LULC products included in the SEN12TS dataset is available [here]().
+A datasheet describing the relationships between raster values and classes for the various LULC products included in the SEN12TS dataset is available at `data/sen12ts_lulc_class_value_relationships.xlsx`.
 
 
 
